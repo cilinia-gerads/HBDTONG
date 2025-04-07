@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    font-family: "Caveat", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #666666;
+    background-image: url('https://i.pinimg.com/736x/b1/a4/98/b1a49834ed8ef85fac21f10c66d754b1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.welcome, .pages {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    color: black;
+    max-width: 400px;
+}
+
+.hbd-icon > svg {
+    width: 200px;
+    align-items: center;
+}
+button {
+    background-color: transparent;
+    font-size: 21px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 3px solid black;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+button:hover {
+    background-color: rgba(34, 69, 107, 0.512);
+    color: rgb(20, 29, 31);
+}
+
+.first-graph {
+    font-size: 28px;
+}
+
+.page-two {
+    height: 220vh;
+    margin: 0 auto;
+}
+
+.hbd-vedio {
+    margin-top: 20px;
+    font-size: 21px;
+}
+.hbd-vedio > video {
+    border-radius: 10px;
+    border: 10px solid #abc4f8;
+}
+.hbd-vedio > svg {
+    width: 20px;
+}
+
+.container {
+    position: relative;
+}
+.container .wrapper {
+    width: 68vw;
+    height: 75vh;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.6);
+    margin: 2rem auto;
+    overflow: hidden;
+    border: 10px solid #abc4f8;
+    border-radius: 8px;
+    max-width: 400px;
+}
+.container .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(10, 100%);
+    width: 100%;
+    height: 100%;
+    animation: slider 15s ease-in-out infinite alternate;
+}
+.container #slide1 {
+    background-image: url(./assest/slide1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide2 {
+    background-image: url(./assest/slide2.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide3 {
+    background-image: url(./assest/slide3.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide4 {
+    background-image: url(./assest/slide4.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide5 {
+    background-image: url(./assest/slide5.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide6 {
+    background-image: url(./assest/slide6.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide7 {
+    background-image: url(./assest/slide7.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide8 {
+    background-image: url(./assest/slide8.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide9 {
+    background-image: url(./assest/slide9.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container #slide10 {
+    background-image: url(./assest/slide10.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.container .button-holder .button {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 3rem;
+}
+.container .button-holder {
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+}
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-200%);}
+    30%{transform: translateX(-300%);}
+    40%{transform: translateX(-400%);}
+    50%{transform: translateX(-500%);}
+    60%{transform: translateX(-600%);}
+    70%{transform: translateX(-700%);}
+    80%{transform: translateX(-800%);}
+    90%{transform: translateX(-900%);}
+    100%{transform: translateX(0%);}
+}
+
+.page-two > button > a > svg {
+    width: 40px;
+}
